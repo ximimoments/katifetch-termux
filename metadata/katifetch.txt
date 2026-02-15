@@ -1,0 +1,8 @@
+Categories: Termux, Utilities
+License: MIT
+SourceCode: https://github.com/ximimoments/katifetch-termux
+Issues: https://github.com/ximimoments/katifetch-termux/issues
+Summary: Minimal and customizable system info tool for Termux
+Description: Katifetch displays system information like CPU, RAM, disk usage, and more, similar to Neofetch.
+UpdateCheckMode: Tags
+AutoUpdate: yes
