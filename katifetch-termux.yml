@@ -1,0 +1,21 @@
+---
+categories:
+  - Utilities
+license: MIT
+version: "1.0"
+name: katifetch-termux
+summary: "Neofetch-like system info tool for Termux"
+description: "Katifetch: minimal and customizable system info tool for Termux."
+website: "https://github.com/ximimoments/katifetch-termux"
+source:
+  git: "https://github.com/ximimoments/katifetch-termux.git"
+  tag: "v1.0"
+build:
+  copy:
+    - bin/*
+    - assets/*
+    - logos/*
+    - themes/*
+archives:
+  - url: "https://github.com/ximimoments/katifetch-termux/archive/refs/tags/v1.0.zip"
+    hash: "sha256:3ad142ad152daa92e545ab8d96f2bd68b6cb92fa311a95afe46a0b7b2014e571"
